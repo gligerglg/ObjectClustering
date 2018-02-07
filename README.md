@@ -46,3 +46,22 @@ Finally invoke the method Flush() to release stored data in clusterObject.
         clusterObject.Flush();
 </code></pre>
 That's all. 🍨 
+
+
+<h3>Dependencies</h3>
+<h4>Step : 1 -  Add the JitPack repository to your build file </h4>
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+<h4>Step : 2 -  Add the dependency</h4>
+
+	dependencies {
+	        compile 'com.github.gligerglg:ObjectClustering:v1.0'
+	}
+

@@ -62,6 +62,6 @@ Add it in your root build.gradle at the end of repositories:
 <h4>Step : 2 -  Add the dependency</h4>
 
 	dependencies {
-	        compile 'com.github.gligerglg:ObjectClustering:v1.0'
+	        implementation 'com.github.gligerglg:ObjectClustering:v1.0'
 	}
 
